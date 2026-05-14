@@ -1,0 +1,74 @@
+/* 🔹 EDIT PAGE */
+.edit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: #f5f7fa;
+}
+
+/* 🔹 CARD */
+.edit-card {
+  background: #ffffff;
+  padding: 25px;
+  width: 420px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* 🔹 TITLE */
+.edit-card h2 {
+  margin-bottom: 15px;
+}
+
+/* 🔹 INPUTS */
+.edit-card input,
+.edit-card textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.edit-card input:focus,
+.edit-card textarea:focus {
+  border-color: #4f46e5;
+}
+
+/* 🔹 TEXTAREA */
+.edit-card textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* 🔹 IMAGE PREVIEW */
+.preview-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+/* 🔹 BUTTON */
+.update-btn {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.update-btn:hover {
+  background: #4338ca;
+}
